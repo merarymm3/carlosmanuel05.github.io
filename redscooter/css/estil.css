@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../imagenes/fondob.jpg);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+    p{
+font-family: arial; 
+text-align: justify; 
+font-size: 15px;    
+    }
+h1{
+font-family: arial; 
+text-align: center; 
+color: #3498DB; 
+}
+
+figure{
+align-items: center;
+margin: 0;
+display: inline-block;
+position: relative;
+}
+figcaption{
+    display: none;
+    background-color: #3498DB;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 90%;
+    padding: 5%;
+}
+figure:hover figcaption{
+    display: block;
+    
+}
+a{
+    font-size: 15px;
+}
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+header{
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 30px;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #696969;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+nav a:hover{
+    background-color: #3498DB;
+    color: #fff ;
+}
+.pie-pagina{
+    width: 100%;
+    background-color: rgb(70, 70, 70);
+}
+.pie-pagina .grup1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+    line-height: 30px;
+}
+.pie-pagina .grup1 .box .logo{
+text-align: center;
+width: 100px;
+}
+
+.pie-pagina .grup2 .box figure {
+width: 100px;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.pie-pagina .grup2 .box figure img{
+    width: 250px;
+    
+}
+.pie-pagina .grup2 .box h2{
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-size: 20px;
+  
+}
+.pie-pagina .grup2 .box p{
+color: #ffffff;
+margin-bottom: 10px;
+
+}
+.pie-pagina .grup1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #3498DB;
+    margin-right: 10px;
+    background-color: #f9fcff;
+    text-align: center;
+    border-radius: 25px;
+    transition: all 300ms ease;
+}
+.pie-pagina .grup1 .red-social a:hover{
+    color: #000;
+}
+.pie-pagina .grup2{
+    background-color: #3498DB;
+    padding: 15px 10px;
+    text-align: center;
+    color: #D0D3D4;
+}
+.pie-pagina .grup2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grup1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}

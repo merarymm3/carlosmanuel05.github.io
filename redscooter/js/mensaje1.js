@@ -1,0 +1,1 @@
+var mensaje="\Aprendiendo a usar javaScript\"\n\Uso de herramientas para aplicaciones web\n\'Carlos Manuel Nieto Antunez\'"; alert(mensaje); 
